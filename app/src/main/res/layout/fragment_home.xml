@@ -43,9 +43,19 @@
             android:id="@+id/iv_alarm"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/app_icon_splash"
+            android:src="@drawable/icon_notification"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_home_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/icon_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_alarm"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
@@ -53,19 +63,9 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginEnd="25dp"
-            android:src="@drawable/app_icon_splash"
+            android:src="@drawable/tab_icon_category_n"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/iv_alarm"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/iv_search"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginEnd="25dp"
-            android:src="@drawable/app_icon_splash"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/iv_home_menu"
+            app:layout_constraintEnd_toStartOf="@id/iv_home_search"
             app:layout_constraintTop_toTopOf="parent" />
 
 

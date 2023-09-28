@@ -63,55 +63,55 @@
         android:elevation="1dp"
         android:backgroundTint="@color/white">
 
-    <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-        <ImageView
-            android:id="@+id/bottom_like_button"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_feed_interest_outline_18"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/line_btw_main_bottomprice"
-            android:layout_margin="20dp"
-            android:layout_marginStart="5dp"
-            />
-        <View
-            android:id="@+id/line_nextto_heart"
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@color/black"
-            app:layout_constraintStart_toEndOf="@id/bottom_like_button"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            />
-        <View
-            android:id="@+id/line_btw_main_bottomprice"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/black"
-            app:layout_constraintTop_toTopOf="@+id/bottom_price_bar"/>
-        <TextView
-            android:id="@+id/bottom_price_main_price"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:background="@color/black"
-            android:text="100만원"
-            android:textSize="20sp"
-            app:layout_constraintTop_toTopOf="@+id/bottom_price_bar"
-            app:layout_constraintStart_toEndOf="@id/line_nextto_heart"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="25dp"/>
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/bottom_like_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_feed_interest_outline_18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/line_btw_main_bottomprice"
+                android:layout_margin="20dp"
+                android:layout_marginStart="5dp"
+                />
+            <View
+                android:id="@+id/line_nextto_heart"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                app:layout_constraintStart_toEndOf="@id/bottom_like_button"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <View
+                android:id="@+id/line_btw_main_bottomprice"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                app:layout_constraintTop_toTopOf="@+id/bottom_price_bar"/>
+            <TextView
+                android:id="@+id/bottom_price_main_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@color/black"
+                android:text="100만원"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="@+id/bottom_price_bar"
+                app:layout_constraintStart_toEndOf="@id/line_nextto_heart"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"/>
+        </LinearLayout>
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 
-<!--        구현중인데 화면 밑에 고정시키는것을 어떻게 해야할지 잘 모르겠네요-->
+    <!--        구현중인데 화면 밑에 고정시키는것을 어떻게 해야할지 잘 모르겠네요-->
 
 
 
@@ -194,8 +194,8 @@
                 app:layout_constraintEnd_toStartOf="@id/face"
                 app:layout_constraintBottom_toTopOf="@id/line_for_profile_explain"
                 android:layout_marginBottom="45dp"
+                android:paddingStart="60dp"/>
 
-                />
 
             <ImageView
 
